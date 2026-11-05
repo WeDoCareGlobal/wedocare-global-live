@@ -33,7 +33,7 @@ jobs:
           node --check docs/shared.js
           node --check docs/project-demos.js
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload static site
         uses: actions/upload-pages-artifact@v4
         with:
