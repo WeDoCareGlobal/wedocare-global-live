@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/systems/layout,_N_T_/systems/foundationcentar/layout,_N_T_/systems/foundationcentar/page,_N_T_/systems/foundationcentar"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/systems/foundationcentar/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/484812834259015ed93b6180ab040ee7b66f1cfbee481ba62eea4c570aa8ffa1/$/systems/foundationcentar",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/systems/foundationcentar/page"
+    },
+    "isFallback": false
+  }
+}

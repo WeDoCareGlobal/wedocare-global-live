@@ -1,0 +1,31 @@
+{
+  "name": "we-do-care-global",
+  "version": "1.0.0",
+  "description": "Autonomous AI governance from first principles",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "test": "python3 scripts/check_site.py docs",
+    "check": "node --check scripts/build-vercel.mjs && python3 scripts/check_site.py docs",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "swr": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.7.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.6",
+    "postcss": "^8.5.23",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3"
+  }
+}

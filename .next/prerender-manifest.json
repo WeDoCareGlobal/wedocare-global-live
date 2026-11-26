@@ -1,0 +1,321 @@
+{
+  "version": 4,
+  "routes": {
+    "/": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 16007,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_global-error": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 9063,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/_global-error",
+      "dataRoute": "/_global-error.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_not-found": {
+      "initialStatus": 404,
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11428,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/_not-found",
+      "dataRoute": "/_not-found.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/systems": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 15392,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/systems",
+      "dataRoute": "/systems.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/systems/agent-eval": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11860,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/systems/agent-eval",
+      "dataRoute": "/systems/agent-eval.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/systems/agentguard": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11860,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/systems/agentguard",
+      "dataRoute": "/systems/agentguard.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/systems/agentvault": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11860,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/systems/agentvault",
+      "dataRoute": "/systems/agentvault.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/systems/enterprise-hybrid-rag": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11893,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/systems/enterprise-hybrid-rag",
+      "dataRoute": "/systems/enterprise-hybrid-rag.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/systems/foundationcentar": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11878,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/systems/foundationcentar",
+      "dataRoute": "/systems/foundationcentar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/systems/omniguard": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11856,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/systems/omniguard",
+      "dataRoute": "/systems/omniguard.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/systems/pharma-intelligence-os": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11896,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/systems/pharma-intelligence-os",
+      "dataRoute": "/systems/pharma-intelligence-os.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "3f4325ff4267eece54cc5ee77ebb297f",
+    "previewModeSigningKey": "5d471185d08c8d345ee7c0df1cce10cc8ff1c37bb443724e231e3d36c8017fbf",
+    "previewModeEncryptionKey": "4131a113db908b57f21c02148f7641ec5e8d41c8c3bfc0050ab7b227d36e5410"
+  }
+}

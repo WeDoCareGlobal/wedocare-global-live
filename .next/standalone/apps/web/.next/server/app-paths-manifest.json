@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/systems/agent-eval/page": "app/systems/agent-eval/page.js",
+  "/systems/agentguard/page": "app/systems/agentguard/page.js",
+  "/systems/agentvault/page": "app/systems/agentvault/page.js",
+  "/systems/enterprise-hybrid-rag/page": "app/systems/enterprise-hybrid-rag/page.js",
+  "/systems/foundationcentar/page": "app/systems/foundationcentar/page.js",
+  "/systems/omniguard/page": "app/systems/omniguard/page.js",
+  "/systems/page": "app/systems/page.js",
+  "/systems/pharma-intelligence-os/page": "app/systems/pharma-intelligence-os/page.js"
+}

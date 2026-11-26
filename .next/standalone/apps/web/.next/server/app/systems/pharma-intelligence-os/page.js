@@ -1,0 +1,13 @@
+var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/systems/pharma-intelligence-os/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0kteq8ak8b7e7._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0g-1whr2e01g9.js")
+R.c("server/chunks/ssr/[root-of-the-server]__02qtcu7ngdjtf._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0qj8-g8ff_jpv._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0q1o4z-id-4fn._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_0wpq8j32_ibz4._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_0symwr9mbf-fh.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0xky89qu.js")
+R.c("server/chunks/ssr/node_modules_next_dist_1c5t_vsn6u8fr._.js")
+R.c("server/chunks/ssr/1no0_server_app_systems_pharma-intelligence-os_page_actions_04xffwtxcowmw.js")
+R.m(31236)
+module.exports=R.m(31236).exports
