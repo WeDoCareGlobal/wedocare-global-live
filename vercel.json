@@ -1,36 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
   "buildCommand": "next build",
-  "outputDirectory": ".vercel-site",
-  "rewrites": [
-    {
-      "source": "/omniguard",
-      "destination": "/omniguard.html"
-    },
-    {
-      "source": "/agentguard",
-      "destination": "/agentguard.html"
-    },
-    {
-      "source": "/agentvault",
-      "destination": "/agentvault.html"
-    },
-    {
-      "source": "/enterprise-hybrid-rag",
-      "destination": "/enterprise-hybrid-rag.html"
-    },
-    {
-      "source": "/agent-eval",
-      "destination": "/agent-eval.html"
-    },
-    {
-      "source": "/foundationcentar",
-      "destination": "/foundationcentar.html"
-    },
-    {
-      "source": "/pharma-intelligence-os",
-      "destination": "/pharma-intelligence-os.html"
-    }
-  ]
+  "outputDirectory": ".next",
+  "framework": "nextjs"
 }
