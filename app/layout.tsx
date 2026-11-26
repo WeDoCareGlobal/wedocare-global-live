@@ -14,9 +14,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="icon" href="/logo-icon.svg" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="canonical" href="https://wedocare-global.com/" />
         <meta name="theme-color" content="#0a0b0c" />
+        <meta property="og:image" content="/og-cover.jpg" />
       </head>
       <body className="antialiased">
         <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur">
